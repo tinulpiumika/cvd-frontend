@@ -88,7 +88,7 @@ export default function AddDetails() {
         body: JSON.stringify(jsonObj),
       };
       fetch(
-        "https://cvd-restapi.herokuapp.com/cardiac_prediction",
+        "https://cvd-restapi.onrender.com/cardiac_prediction",
         requestOptions
       )
         .then((response) => response.json())
