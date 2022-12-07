@@ -1,0 +1,8 @@
+
+@media only screen and (max-width: 600px) {
+    .borderClass {
+      background-color: lightblue;
+      width: '90%'
+  }
+  }
+
